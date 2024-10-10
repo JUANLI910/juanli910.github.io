@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    position: relative;
+    overflow: hidden;
+}
+
+.header-background {
+    background: url('header-background.jpg') no-repeat center center / cover; /* 替换为你自己的背景图 */
+    padding: 50px 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* 悬停效果 */
+}
+
+section {
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+}
+
+.about-content {
+    margin-left: 20px;
+}
+
+.about-content .profile-pic {
+    border-radius: 50%;
+    width: 150px; /* 个人头像大小 */
+    height: 150px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333; /* 深色背景 */
+    color: #fff; /* 白色文字 */
+    padding: 40px 20px; /* 增加上下内边距，左右内边距 */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex; /* 使用Flexbox */
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 水平居中对齐 */
+    text-align: left; /* 左对齐文本 */
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 1.8em; /* 增加标题大小 */
+}
+
+.contact-info {
+    margin-top: 10px; /* 增加标题和联系信息之间的间距 */
+}
+
+.contact-link {
+    color: #ffcc00; /* 链接颜色 */
+    text-decoration: none; /* 去掉下划线 */
+    font-weight: bold; /* 加粗链接 */
+}
+
+.contact-link:hover {
+    text-decoration: underline; /* 悬停效果：下划线 */
+}
+
+.contact-info-text {
+    color: #ccc; /* 其他联系信息颜色 */
+}
